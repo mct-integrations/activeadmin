@@ -13,7 +13,7 @@ window.AA.Popover = class AA.Popover
       onClickActionItemCallback: null
     }
 
-    @options = $.extend({}, defaults, options)
+    @options = $.extend({}, defaults, @options)
 
     @$popover = null
     @isOpen = false

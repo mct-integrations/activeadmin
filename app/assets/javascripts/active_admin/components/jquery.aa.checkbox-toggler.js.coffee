@@ -4,7 +4,7 @@ window.AA.CheckboxToggler = class AA.CheckboxToggler
 
     defaults = {}
 
-    @options = $.extend( {}, defaults, options );
+    @options = $.extend( {}, defaults, @options );
     
     @_init()
     @_bind()
